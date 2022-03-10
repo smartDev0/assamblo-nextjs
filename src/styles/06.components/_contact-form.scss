@@ -1,0 +1,24 @@
+.contact-form {
+  background: $brand-secondary;
+  padding: 3.8em 0 4em;
+  color: #fff;
+
+  @media (min-width: $break-lg) {
+    padding: 5em 3em;
+  }
+
+  &__title {
+    display: block;
+    font-family: $font-secondary;
+    font-weight: 900;
+    font-size: 2.4em;
+    margin: 0 0 0.58em 0;
+    line-height: 1.2em;
+  }
+
+  &__description {
+    font-size: 1.9em;
+    line-height: 1.2em;
+    margin: 0 0 1.33em 0;
+  }
+}

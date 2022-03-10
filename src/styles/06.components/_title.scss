@@ -1,0 +1,31 @@
+.title {
+  position: relative;
+  font-size: 2.8em;
+  line-height: 1.2em;
+  padding: 0 0.55em 0.55em;
+  margin: 0 0 1.5em 0;
+  text-align: center;
+  font-family: $font-secondary;
+  font-weight: 900;
+
+  @media (min-width: $break-lg){
+    font-size: 3em;
+    padding-bottom: 0.833em;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 3px;
+    background-color: $brand-primary;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &--with-subtitle {
+    margin-bottom: 0.76em;
+  }
+}

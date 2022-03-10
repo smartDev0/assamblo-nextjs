@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="649" viewBox="0 0 1280 649">
+    <defs>
+        <linearGradient id="ttliuuaurc" x1="99.018%" x2="3.329%" y1="47.187%" y2="69.977%">
+            <stop offset="0%" stop-color="#00609E"/>
+            <stop offset="100%" stop-color="#AC3C7B"/>
+        </linearGradient>
+        <filter id="zljugm58xb" width="106.4%" height="108.8%" x="-3.5%" y="-3.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadOuter1"/>
+            <feOffset dx="-5" dy="9" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="18"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.210113733 0 0 0 0 0.210113733 0 0 0 0 0.210113733 0 0 0 0.5 0"/>
+        </filter>
+        <path id="kvxmda07da" d="M133 900.19l194.869 125.282c64.15 38.483 137.175 40.134 219.071 4.954 81.897-35.18 370.583-160.78 866.06-376.798L1427.292 0 0 8.628 133 900.19z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-133 -442.5)">
+        <use fill="#000" filter="url(#zljugm58xb)" xlink:href="#kvxmda07da"/>
+        <use fill="url(#ttliuuaurc)" xlink:href="#kvxmda07da"/>
+    </g>
+</svg>

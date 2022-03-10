@@ -1,0 +1,19 @@
+.icon-text {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    width: auto;
+    height: auto;
+    max-width: 1.7em;
+    max-height: 1.7em;
+    margin: 0 2.2em 0 0;
+  }
+
+  &__text{
+    font-family: $font-secondary;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.9em;
+  }
+}

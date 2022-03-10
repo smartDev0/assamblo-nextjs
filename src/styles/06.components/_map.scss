@@ -1,0 +1,38 @@
+.map {
+  height: 100%;
+
+  & > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__info-text {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-family: $font-main;
+    color: $text-main;
+  }
+
+  &__info-link {
+    font-size: 0.9em;
+    text-decoration: underline;
+    font-style: italic;
+    color: $brand-primary;
+  }
+
+  &__marker {
+    &--right {
+      position: absolute;
+      left: 30px;
+      top: 40px;
+    }
+    &--left {
+      position: absolute;
+      right: 32px;
+      top: 40px;
+    }
+  }
+}

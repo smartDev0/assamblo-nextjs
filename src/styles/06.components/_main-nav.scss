@@ -1,0 +1,333 @@
+.main-nav {
+  position: relative;
+
+  @media (min-width: $break-lg) {
+    margin-bottom: 0.3em;
+  }
+
+  &__toggle {
+    display: block;
+    width: 1.9em;
+    height: 1.3em;
+    background: transparent no-repeat center;
+    background-size: contain;
+    outline: none;
+    border: none;
+    padding: 0;
+    position: relative;
+    z-index: 160;
+
+    @media (min-width: $break-lg) {
+      display: none;
+    }
+
+    & svg {
+      width: 100%;
+    }
+
+    & svg * {
+      fill: #fff;
+    }
+  }
+
+  &--open &__toggle {
+    background-image: url('/img/icons/close.png');
+
+    & svg {
+      opacity: 0;
+    }
+  }
+
+  &--dark-menu &__toggle {
+    & svg * {
+      fill: $brand-primary;
+    }
+  }
+
+  &--open &__toggle {
+    & svg * {
+      fill: #fff;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 150;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    padding: 7em 4em;
+    background: $brand-secondary url('/img/mobile-menu-bg.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    transform: translateY(-100%);
+    transform-origin: 0 0;
+    font-family: $font-secondary;
+    transition: transform 0.25s ease 0s;
+    overflow: hidden;
+
+    @media (max-width: 960px) and (max-height: 500px) and (orientation: landscape) {
+      padding-top: 5.2em;
+      padding-bottom: 5.2em;
+    }
+
+    @media (min-width: $break-lg) {
+      overflow: visible;
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      position: static;
+      flex-direction: row;
+      background: none;
+      padding: 0;
+      transform: none;
+      height: auto;
+      align-items: center;
+    }
+  }
+
+  &--dark-menu &__list {
+    color: $brand-primary;
+  }
+
+  &__item {
+    margin: 0 0 2.5em 0;
+    vertical-align: middle;
+    padding: 20px 0;
+
+    @media (max-width: 960px) and (max-height: 500px) and (orientation: landscape) {
+      margin-bottom: 1.5em;
+    }
+
+    @media (max-width: $break-lg) {
+      padding: 0;
+    }
+
+    @media (min-width: $break-lg) {
+      margin-left: 3.2em;
+      margin-bottom: 0;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+    &:hover {
+      .main-nav__extend {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: initial;
+      }
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 2.4em;
+    transition: opacity 0.3s ease 0s;
+    position: relative;
+
+    @media (max-width: 960px) and (max-height: 500px) and (orientation: landscape) {
+      font-size: 2em;
+    }
+
+    @media (max-width: 640px) and (orientation: landscape) {
+      font-size: 1.8em;
+    }
+
+    @media (min-width: $break-lg) {
+      font-size: 1.9em;
+      opacity: 0.9;
+      letter-spacing: -0.01em;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &--active {
+      opacity: 1;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0 0 0;
+        border-radius: 3px;
+
+        @media (min-width: $break-lg) {
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    vertical-align: middle;
+    transition: opacity 0.3s ease 0s;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 2.4em;
+    color: inherit;
+    padding: 0;
+    font-family: $font-secondary;
+    transition: transform 0.5s ease 0s;
+
+    @media (max-width: 960px) and (max-height: 500px) and (orientation: landscape) {
+      font-size: 2em;
+    }
+
+    @media (max-width: 640px) and (orientation: landscape) {
+      font-size: 1.8em;
+    }
+
+    @media (min-width: $break-lg) {
+      font-size: 1.8em;
+      font-weight: 400;
+
+      background-color: $brand-secondary;
+      padding: 0.4em 1.2em 0.4em 1.2em;
+      border-radius: 2em;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__select {
+    position: relative;
+
+    select {
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      outline: none;
+      appearance: none;
+      font-weight: 700;
+      font-size: 2.4em;
+      color: $brand-secondary;
+      padding: 0;
+      font-family: $font-secondary;
+      padding: 0.4em 2em 0.4em 1.2em;
+      border-radius: 2em;
+
+      @media (min-width: $break-lg) {
+        font-size: 1.8em;
+        font-weight: 400;
+        color: white;
+        transition: transform 0.5s ease 0s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      option {
+        color: black;
+      }
+    }
+
+    &--arrow {
+      --size: 0.65em;
+      position: absolute;
+      width: 2rem;
+      display: block;
+      cursor: pointer;
+      pointer-events: none;
+      height: 100%;
+      left: 7em;
+      top: 0;
+
+      &:after {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 45%;
+        border-left: var(--size) solid transparent;
+        border-right: var(--size) solid transparent;
+        border-top: var(--size) solid $brand-secondary;
+      }
+
+      @media (min-width: $break-lg) {
+        left: 5em;
+
+        &:after {
+          border-top: var(--size) solid white;
+        }
+      }
+    }
+  }
+
+  &--open &__list {
+    transform: translateY(0%);
+  }
+
+  &__extend {
+    opacity: 0;
+    background: transparent;
+    position: absolute;
+    z-index: 10;
+    top: 66px;
+    margin: 0px;
+    min-width: 104px;
+    margin-left: -11px;
+
+    @media (max-width: $break-lg) {
+      position: absolute;
+      left: 220px;
+      top: auto;
+      margin-top: -20px;
+    }
+  }
+
+
+  &__sub {
+    background: #005b96;
+    padding: 12px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+    @media (max-width: $break-lg) {
+      background: transparent;
+      text-align: left;
+      box-shadow: none;
+      font-size: 20px;
+    }
+  }
+
+  &__icon {
+    display: none;
+
+    @media (max-width: $break-lg) {
+      display: initial;
+      width: 12px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+
+  &__disabled-link{
+    @media (max-width: $break-lg) {
+      pointer-events: none;
+    }
+  }
+}

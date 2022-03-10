@@ -1,0 +1,362 @@
+// ******************
+// --- INTRO ---
+// ******************
+.blockchain__intro {
+  margin-top: 15em;
+  position: relative;
+  padding: 6em;
+  box-shadow: 0 7px 37px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media (min-width: $break-lg) {
+    margin-top: 5em;
+  }
+
+  &--circle {
+    position: absolute;
+    top: -15%;
+    width: 143px;
+    height: 143px;
+    border-radius: 71.5px;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    @media (min-width: $break-lg) {
+      top: -20%;
+    }
+  }
+
+  h2 {
+    width: 40ch;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    color: #565554;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: $font-secondary;
+    font-size: 25px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+
+    @media (min-width: $break-lg) {
+      font-size: 32px;
+    }
+
+    &:after {
+      content: '';
+      margin-top: 0.5em;
+      width: 2.5em;
+      height: 1px;
+      border: solid 2px #005b96;
+    }
+  }
+
+  .blockchain__description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (min-width: $break-lg) {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    &--text {
+      font-family: $font-main;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #636363;
+      margin-bottom: 2em;
+      @media (min-width: $break-lg) {
+        font-size: 20px;
+        margin-left: 3em;
+        margin-right: 3em;
+      }
+    }
+  }
+}
+
+// ******************
+// --- SUMMARY ---
+// ******************
+.blockchain__summary {
+  padding: 6em;
+  box-shadow: 0 7px 37px 0 rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    width: 40ch;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #565554;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: $font-secondary;
+    font-size: 25px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+
+    @media (min-width: $break-lg) {
+      font-size: 32px;
+      &:last-child {
+        margin-top: 5em;
+      }
+    }
+    @media (min-width: $break-xl) {
+      &:last-child {
+        margin-top: 1em;
+      }
+    }
+
+    &:after {
+      content: '';
+      margin-top: 0.5em;
+      width: 2.5em;
+      height: 1px;
+      border: solid 2px #005b96;
+    }
+  }
+
+  .blockchain__description {
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (min-width: $break-lg) {
+      flex-direction: row;
+    }
+
+    &--item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 4em;
+      @media (min-width: $break-lg) {
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-bottom: 0;
+      }
+    }
+
+    &--title {
+      margin: 1em;
+      max-width: 20ch;
+      font-family: $font-secondary;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #636363;
+      @media (min-width: $break-lg) {
+        font-size: 20px;
+      }
+    }
+
+    &--text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1em;
+      margin-right: 2em;
+      @media (min-width: $break-lg) {
+        height: 50ch;
+      }
+
+      span {
+        max-width: 40ch;
+        text-align: justify;
+        font-family: $font-main;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #636363;
+      }
+    }
+  }
+}
+
+// ******************
+// --- MYSTORY ---
+// ******************
+.blockchain__mystory {
+  box-shadow: 0 7px 37px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 3em 1em 3em;
+
+  &--title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin: 1em 0 0 0;
+    color: #565554;
+
+    font-family: $font-secondary;
+    font-size: 25px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+
+    @media (min-width: $break-lg) {
+      font-size: 32px;
+    }
+  }
+
+  h3 {
+    margin: 0.5em 0 1em 0;
+    display: flex;
+    align-items: center;
+    font-family: $font-secondary;
+    font-size: 26px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #565554;
+
+    &:before {
+      content: '';
+      margin: 0 0.5em 0 0;
+      display: inline-block;
+      height: 1em;
+      width: 2px;
+      background-color: $brand-primary;
+    }
+  }
+
+  &--body {
+    display: flex;
+    margin: 0 0 3em 0;
+
+    &--text {
+      font-family: $font-main;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      color: #636363;
+
+      & p {
+        margin: 0 2em 1em 0;
+        max-width: 100ch;
+      }
+
+      button {
+        display: inline-block;
+        margin: 2em 0 0 0;
+        padding: 0.75em 1em 0.75em 1em;
+        text-shadow: -5px 9px 36px rgba(54, 54, 54, 0.5);
+        font-family: $font-secondary;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        border: none;
+        line-height: 0.8;
+        letter-spacing: normal;
+        border-radius: 35px;
+        color: $brand-primary;
+        @media (min-width: $break-lg) {
+          padding: 1em 3em 1em 3em;
+          margin: 1em 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+// ******************
+// --- STEPS ---
+// ******************
+.blockchain__steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    width: 40ch;
+    margin: 3em 0 1em 0;
+    color: #565554;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: $font-secondary;
+    font-size: 25px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+
+    @media (min-width: $break-lg) {
+      font-size: 32px;
+    }
+
+    &:after {
+      content: '';
+      margin-top: 0.5em;
+      width: 2.5em;
+      height: 1px;
+      border: solid 2px #005b96;
+    }
+  }
+
+  h3 {
+    margin: 0 0 0 0;
+    font-family: $font-secondary;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #000000;
+    @media (min-width: $break-lg) {
+      margin: 0 0 8rem 0;
+    }
+  }
+}

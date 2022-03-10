@@ -1,0 +1,96 @@
+.contact-info {
+  background: $brand-primary;
+  color: #fff;
+  padding: 6em 0 4.5em 0;
+  position: relative;
+
+  @media (min-width: $break-lg) {
+    padding-top: 4.5em;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    width: 13.9em;
+    height: 12em;
+    background: transparent url('/img/icons/mail.svg') no-repeat center
+      center;
+    background-size: contain;
+    transform: translateY(-62%);
+
+    @media (min-width: $break-lg) {
+      transform: translate(42em, -62%);
+    }
+  }
+
+  &__title {
+    font-size: 2.4em;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    margin: 0 0 1em 0;
+    text-align: center;
+
+    @media (min-width: $break-md) {
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 0.5em;
+    }
+
+    & strong {
+      @media (max-width: $break-lg) {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 0.15em;
+      }
+    }
+  }
+
+  &__description {
+    font-size: 1.8em;
+    line-height: 1.38em;
+    text-align: center;
+
+    @media (min-width: $break-md) {
+      display: block;
+      text-align: left;
+      padding-right: 1em;
+    }
+    @media (min-width: $break-lg) {
+      padding-right: 0;
+    }
+  }
+
+  &__cols {
+    @media (min-width: $break-md) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__col {
+    margin-bottom: 1.5em;
+    justify-content: center;
+
+    @media (min-width: $break-md) {
+      flex-basis: calc(50% - 2em);
+      margin-bottom: 0;
+      justify-content: flex-start;
+    }
+
+    @media (min-width: 1200px) {
+      flex-basis: calc(50% - 4em);
+    }
+
+    &--icons {
+      @media (min-width: $break-md) and (max-width: $break-lg) {
+        flex-direction: column;
+      }
+    }
+  }
+}

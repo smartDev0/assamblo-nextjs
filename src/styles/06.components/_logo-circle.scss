@@ -1,0 +1,67 @@
+.logo-circles{
+  padding-bottom: 100%;
+  position: relative;
+  
+  &__logo{
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    svg path{
+      fill: transparent !important;
+      stroke: #fff;
+      stroke-width: 2px;
+    }
+  }
+
+  &__circle{
+    width: 50%;
+    top: 0;
+    left: 25%;
+    position: absolute;
+    padding-bottom: 50%;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    transform-origin: bottom center;
+    transition: transform 1.4s ease 0s, opacity 0.5s ease 0s;
+    opacity: 0;
+
+    &--big{
+      width: 70.1%;
+      padding-bottom: 70.1%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      opacity: 0;
+    }
+
+  }
+
+  &--active &__circle{
+    opacity: 0.3;
+  }
+  &--active &__circle--2{
+    transform: rotate(45deg);
+  }
+  &--active &__circle--3{
+    transform: rotate(90deg);
+  }
+  &--active &__circle--4{
+    transform: rotate(135deg);
+  }
+  &--active &__circle--5{
+    transform: rotate(180deg);
+  }
+  &--active &__circle--6{
+    transform: rotate(225deg);
+  }
+  &--active &__circle--7{
+    transform: rotate(270deg);
+  }
+  &--active &__circle--8{
+    transform: rotate(315deg);
+  }
+
+}

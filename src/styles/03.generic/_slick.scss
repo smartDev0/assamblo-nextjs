@@ -1,0 +1,28 @@
+.slider-dots{
+  position: static;
+  
+  & li{
+    width: auto;
+    height: auto;
+    margin: 0 7px;
+
+    & button{
+      background: #C0C0C0;
+      border-radius: 100%;
+      width: 13px;
+      height: 13px;
+      margin: 0;
+  
+      &:before{
+        display: none;
+      }
+    }
+    &.slick-active button{
+      background: $brand-primary;
+    }
+  }
+  
+  &--secondary li.slick-active button{
+    background: $brand-secondary;
+  }
+}

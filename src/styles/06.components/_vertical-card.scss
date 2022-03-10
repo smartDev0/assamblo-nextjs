@@ -1,0 +1,31 @@
+.others {
+    &__card {
+        text-align: center;
+        max-width: 296px;
+        margin: auto;
+        cursor: pointer;
+        img {
+            transition: transform 0.6s ease 0s;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    &__text {
+        font-size: 25px;
+        font-weight: bold;
+        color: #005B96;
+        padding: 20px 0;
+        font: normal normal bold 21px/22px Lato;
+        letter-spacing: 0px;
+        line-height: 26px;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #048ae4;
+        }
+    }
+}

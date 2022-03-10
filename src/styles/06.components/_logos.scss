@@ -1,0 +1,64 @@
+.logos{
+  margin: 0 0 6em 0;
+  padding: 5.4em 0;
+  overflow-x: auto;
+  
+
+  @media (min-width: $break-md){
+    padding: 3.2em 0;
+  }
+  @media (min-width: $break-lg){
+    margin-bottom: 12em;
+  }
+
+  &--bg-solid{
+    background-color: transparent;
+  }
+
+  &__list{
+    display: none;
+    
+    @media (min-width: $break-sm){
+      display: flex;
+      align-items: center;
+      flex-direction: row; 
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: center;
+
+      margin-left: -2.2em;
+      margin-right: -2.2em;
+    }
+
+    @media (min-width: $break-lg){
+      align-items: center;
+    }
+  }
+  &__slider{
+    @media (min-width: $break-sm){
+      display: none;
+    }
+  }
+
+  &__item{
+    margin: 0 2em;
+
+    @media (min-width: $break-sm){
+      margin: 2.2em;
+    }
+
+  } 
+
+  &__img{
+    width: auto;
+    height: auto;
+    
+    max-height: 4.4em;
+    max-width: 20em;
+
+    @media (min-width: $break-lg){
+      max-height: 5.6em;
+    }
+  }
+  
+}

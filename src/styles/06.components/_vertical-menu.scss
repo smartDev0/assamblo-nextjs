@@ -1,0 +1,15 @@
+.vertical-menu{
+  &__item{
+    margin: 0 0 1.8em 0;
+
+    &:last-child{
+      margin: 0;
+    }
+  }
+  &__link{
+    // font-family: $font-secondary;
+    font-size: 1.8em;
+    font-weight: 700;
+    // color: $text-light;
+  }
+}

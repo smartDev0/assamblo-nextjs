@@ -1,0 +1,46 @@
+{
+  "name": "asamblo-nextjs",
+  "version": "1.2.1",
+  "description": "Asamblo's website written in NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/asamblo/internal/website-nextjs.git"
+  },
+  "author": "Asamblo",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
+    "antd": "^3.26.20",
+    "i18n-iso-countries": "^6.7.0",
+    "next": "^10.2.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^17.0.2",
+    "react-gmaps": "^1.9.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.2",
+    "react-slick": "^0.27.14",
+    "react-svg": "^7.2.14",
+    "react-translate": "^7.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "prettier": "^1.19.1"
+  }
+}

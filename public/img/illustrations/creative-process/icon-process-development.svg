@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="98px" viewBox="0 0 119 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-development</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Process" transform="translate(-198.000000, -1883.000000)">
+            <g id="Planning-Copy" transform="translate(147.000000, 1821.000000)">
+                <g id="circle-development">
+                    <g id="icon-development" transform="translate(51.000000, 62.000000)">
+                        <path d="M39,33.5 C35.4101491,33.5 32.5,36.4101491 32.5,40 L32.5,90 C32.5,93.5898509 35.4101491,96.5 39,96.5 L111,96.5 C114.589851,96.5 117.5,93.5898509 117.5,90 L117.5,40 C117.5,36.4101491 114.589851,33.5 111,33.5 L39,33.5 Z" id="Rectangle-3-Copy-4" stroke="#FA655C" stroke-width="3"/>
+                        <path d="M43,63 L56,63" id="Line-2-Copy-10" stroke="#005B96" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M47,69 L57,69" id="Line-2-Copy-11" stroke="#6948FA" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M67,69 L86,69" id="Line-2-Copy-12" stroke="#005B96" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M49,74 L72,74" id="Line-2-Copy-13" stroke="#005B96" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M47,82 L68,82" id="Line-2-Copy-14" stroke="#005B96" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M69,89 L97,89" id="Line-2-Copy-15" stroke="#005B96" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M75,82 L91,82" id="Line-2-Copy-16" stroke="#6948FA" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M47,89 L63,89" id="Line-2-Copy-17" stroke="#6948FA" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M100,77 L102,77" id="Line-2-Copy-18" stroke="#6948FA" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M104,70 L106,70" id="Line-2-Copy-19" stroke="#FA655C" stroke-width="2" stroke-linecap="round"/>
+                        <rect id="Rectangle-3-Copy-2" stroke="#005B96" stroke-width="3" x="1.5" y="1.5" width="85" height="73" rx="8"/>
+                        <path d="M1.5,17.5 L1.5,69 C1.5,72.5898509 4.41014913,75.5 8,75.5 L80,75.5 C83.5898509,75.5 86.5,72.5898509 86.5,69 L86.5,17.5 L1.5,17.5 Z" id="Rectangle-3-Copy-3" stroke="#005B96" stroke-width="3" fill="#FFFFFF"/>
+                        <circle id="Oval-2-Copy-3" fill="#6948FA" cx="11" cy="10" r="3"/>
+                        <circle id="Oval-2-Copy-4" fill="#005B96" cx="20" cy="10" r="3"/>
+                        <circle id="Oval-2-Copy-5" fill="#FA655C" cx="28" cy="10" r="3"/>
+                        <polyline id="Path-2" stroke="#FA655C" stroke-width="4" stroke-linecap="round" points="31 44.7933094 40.134078 54 57 37"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

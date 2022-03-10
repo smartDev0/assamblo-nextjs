@@ -1,0 +1,65 @@
+// 01.settings
+@import '01.settings/colors';
+@import '01.settings/breakpoints';
+@import '01.settings/fonts';
+
+// 02.tools
+
+// 03.generic
+@import '03.generic/reset';
+@import '03.generic/layout';
+@import '~slick-carousel/slick/slick';
+@import '~slick-carousel/slick/slick-theme';
+@import '03.generic/slick';
+@import '03.generic/antd';
+
+// 04.elements
+@import '04.elements/elements';
+
+// 05.objects
+
+// 06.components
+@import '06.components/header';
+@import '06.components/main-nav';
+@import '06.components/page-intro';
+@import '06.components/features';
+@import '06.components/feature-item';
+@import '06.components/featured-projects';
+@import '06.components/project-preview';
+@import '06.components/btn';
+@import '06.components/title';
+@import '06.components/subtitle';
+@import '06.components/logos';
+@import '06.components/features-grid';
+@import '06.components/team-thumbs';
+@import '06.components/text-cols';
+@import '06.components/generic-form';
+@import '06.components/map-contact';
+@import '06.components/contact-form';
+@import '06.components/story-code-demo-request-form';
+@import '06.components/contact-info';
+@import '06.components/icon-text';
+@import '06.components/footer';
+@import '06.components/vertical-menu';
+@import '06.components/big-feature-item';
+@import '06.components/bg-shape';
+@import '06.components/map';
+@import '06.components/page-header';
+@import '06.components/team-slider';
+@import '06.components/page-title';
+@import '06.components/project-summary';
+@import '06.components/process-illustration';
+@import '06.components/logo-circle';
+@import '06.components/customers-reviews';
+@import '06.components/partner';
+@import '06.components/vertical-card';
+@import '06.components/contact';
+@import '06.components/vertical-customers-review';
+@import '06.components/expert-card';
+// 07.utilities
+@import '07.utilities/utilities';
+
+// 08.pages
+@import '08.pages/about-us';
+@import '08.pages/traceability';
+@import '08.pages/verticals';

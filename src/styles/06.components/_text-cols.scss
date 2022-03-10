@@ -1,0 +1,44 @@
+.text-cols {
+  margin-bottom: 6em;
+  position: relative;
+  @media (min-width: $break-lg) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  &__col {
+    margin: 0 0 2em 0;
+    @media (min-width: $break-lg) {
+      flex-basis: calc(50% - 4.5em);
+      margin-bottom: 0;
+    }
+  }
+
+  &__text {
+    font-size: 1.9em;
+    line-height: 1.4em;
+
+    & strong{
+      font-weight: 700;
+    }
+  }
+
+  &__button {
+    display: block;
+    margin: -1.5em auto 0;
+    transform-origin: center center;
+
+    @media (min-width: $break-lg){
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+
+      &:hover{
+        transform: translate(-50%, -50%) scale(1.05);
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.contact {
+    width: 100%;
+    background: transparent url('/img/verticals/contact.png') no-repeat top center;
+    background-size: cover;
+    z-index: -1;
+    padding: 30px 0;
+
+    @media (min-width: $break-md) {
+        padding: 80px 0 50px 0;
+    }
+
+    &__section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @media (min-width: $break-md) {
+            justify-content: space-between;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media (min-width: $break-lg) {
+            padding: 1.4em 0;
+        }
+    }
+
+    &__col {
+        flex-basis: 0;
+        flex-grow: 1;
+        margin: 0 5px;
+
+        @media (max-width: $break-lg) {
+            flex-basis: 100%;
+            margin-bottom: 5em;
+        }
+
+        &--no-title {
+            @media (min-width: $break-lg) {
+                padding-top: 6rem;
+            }
+        }
+    }
+
+    &__button {
+
+        display: flex;
+        justify-content: center;
+
+        @media (min-width: $break-lg) {
+            margin-top: 50px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+    }
+
+    .form-label {
+        font: normal normal 300 18px/22px Lato;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+        background: transparent;
+        outline: none;
+        border: none;
+        min-height: 40px;
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 22px;
+    }
+}

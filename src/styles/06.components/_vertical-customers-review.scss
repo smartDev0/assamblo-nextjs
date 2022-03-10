@@ -1,0 +1,52 @@
+.reviews {
+    padding: 4rem 0rem;
+
+
+    @media (min-width: $break-md) {
+        padding: 9rem 0rem;
+    }
+
+    &__section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @media (min-width: $break-md) {
+            justify-content: space-between;
+        }
+    }
+
+    &--text {
+        font-family: $font-secondary;
+        color: #565554;
+        padding: 5rem 0;
+
+        @media (min-width: $break-md) {
+            padding: 0 10em 5rem 0;
+            border-right: 1px solid #C9C9C9;
+        }
+    }
+
+    &--title {
+        position: relative;
+        font-size: 30px;
+        font-family: $font-main;
+        font-weight: 900;
+    }
+
+    &--body {
+        margin-top: 3rem;
+        font-size: 19px;
+        font-family: $font-secondary;
+        max-width: 50ch;
+        line-height: 4rem;
+
+        @media (min-width: $break-md) {
+            margin-top: 8rem;
+        }
+
+        strong {
+            font-weight: 900;
+        }
+    }
+}

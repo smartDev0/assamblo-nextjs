@@ -1,0 +1,267 @@
+.footer {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 4em 0;
+
+  @media (min-width: $break-lg) {
+    text-align: left;
+    padding: 6em 0;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent url('/img/bg-footer-mobile.svg') no-repeat top center;
+    background-size: 100% auto;
+    z-index: -1;
+
+    @media (min-width: $break-lg) {
+      display: none;
+    }
+  }
+
+  &__social {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__copyright {
+    margin: 20px 0;
+  }
+
+  &__wrapper {
+    text-align: left;
+    border-left: 4px solid #005B96;
+    padding-left: 20px;
+
+    @media (min-width: $break-lg) {
+      padding-left: 23px;
+      height: 100%;
+      opacity: 0.8;
+      border-left: 1px solid #005B96;
+    }
+
+  }
+
+  .mt-10 {
+    margin-top: 10px;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .text-right {
+    text-align: right;
+
+    @media (min-width: $break-lg) {
+      text-align: right;
+    }
+  }
+
+  .clutch-img {
+    text-align: center;
+
+    @media (min-width: $break-lg) {
+      text-align: right;
+    }
+  }
+
+  .vertical-border {
+
+    @media (min-width: $break-lg) {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .vertical-menu {
+      border: none;
+
+      @media (min-width: $break-lg) {
+        border-left: 1px solid #4b93b9;
+        padding: 0 15px;
+      }
+    }
+
+  }
+
+  .social-part {
+
+    padding: 10px 5px;
+
+    background: transparent url('/img/social.svg') no-repeat top center;
+    background-size: 100% auto;
+    z-index: 10;
+    text-align: center;
+
+    @media (min-width: $break-lg) {
+      width: 200px;
+    }
+
+    img {
+      margin: 0 15px;
+      width: 25px;
+
+    }
+  }
+
+  &__sup {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__col {
+    flex-basis: 0;
+    flex-grow: 1;
+
+    @media (max-width: $break-lg) {
+      flex-basis: 100%;
+      margin-bottom: 5em;
+    }
+
+    &--no-title {
+      @media (min-width: $break-lg) {
+        padding-top: 6rem;
+      }
+    }
+  }
+
+  &__title {
+    display: block;
+    font-family: $brand-secondary;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0 0 1.5em 0;
+    color: $text-darker;
+  }
+
+  &__sub {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em 0;
+    justify-items: center;
+    align-items: center;
+
+    @media (min-width: $break-md) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      gap: 0 0;
+    }
+
+    @media (min-width: $break-lg) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      gap: 0 0;
+    }
+
+    padding: 3em 20px;
+    border-top: 1px solid rgba(151, 151, 151, 0.3);
+
+    &--text {
+      font-size: 1.6em;
+      line-height: 1.4em;
+      font-family: $font-secondary;
+      text-align: center;
+    }
+  }
+
+  &__text {
+    font-size: 1.8em;
+    line-height: 1.66em;
+    margin: -0.3em 0 1em 0;
+
+    &--bold {
+      font-weight: bold;
+    }
+
+    &--blue {
+      color: #4b93b9;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    color: $brand-primary;
+
+    @media (min-width: $break-lg) {
+      margin-left: 0;
+      margin-right: 1em;
+    }
+
+    &--phone {
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #005B96;
+    }
+  }
+
+  &__bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    text-align: right;
+    z-index: -1;
+    opacity: 0.035;
+
+    @media (min-width: $break-lg) {
+      display: block;
+    }
+
+    div {
+      height: 100%;
+      width: auto;
+    }
+
+    svg {
+      height: 100%;
+      transform: scale(1.5);
+      transform-origin: 100% 50%;
+    }
+  }
+
+  &__customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -5rem 0 0 0;
+
+    @media (min-width: $break-lg) {
+      margin: -10rem 0 0 0;
+    }
+
+    &--award {
+      @media (min-width: $break-lg) {
+        margin-right: 5rem;
+      }
+    }
+
+    &--widget {
+      * {
+        margin: 1rem 6rem 0 6rem;
+
+        @media (min-width: $break-lg) {
+          margin: unset;
+        }
+      }
+    }
+  }
+}

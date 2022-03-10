@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>HBMenuIcon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HomeScreen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Mobile" transform="translate(-325.000000, -46.000000)" fill="#FFFFFF">
+            <g id="Header" transform="translate(0.000000, -3.000000)">
+                <g id="HBMenuIcon" transform="translate(324.000000, 49.000000)">
+                    <g id="Group-2">
+                        <polygon id="Rectangle-13" transform="translate(8.720625, 12.556836) rotate(-90.000000) translate(-8.720625, -12.556836) " points="8.27746125 5.02363278 9.16378943 5.02363278 9.16378943 20.090039 8.27746125 20.090039"></polygon>
+                        <polygon id="Rectangle-13-copy" transform="translate(8.720625, 1.034105) rotate(-90.000000) translate(-8.720625, -1.034105) " points="8.2774388 -6.49909803 9.16381189 -6.49909803 9.16381189 8.56730822 8.2774388 8.56730822"></polygon>
+                        <polygon id="Rectangle-13-copy-2" transform="translate(10.872852, 6.795459) rotate(-90.000000) translate(-10.872852, -6.795459) " points="10.4296659 -0.737744148 11.3160384 -0.737744148 11.3160384 14.3286621 10.4296659 14.3286621"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

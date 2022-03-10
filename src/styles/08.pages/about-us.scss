@@ -1,0 +1,7 @@
+.page-about-us{
+  .main-nav--dark-menu .main-nav__list{
+    @media(min-width: $break-lg){
+      color: #fff;
+    }
+  }
+}

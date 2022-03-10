@@ -1,0 +1,25 @@
+.features-grid {
+  margin: 0 0 5em 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 3em 0;
+
+  @media (min-width: $break-lg) {
+    padding: 0 0 5em 0;
+    margin: 0 0 5em 0;
+  }
+
+  &__list {
+    display: none;
+    @media (min-width: $break-md) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  &__slider {
+    @media (min-width: $break-md) {
+      display: none;
+    }
+  }
+}

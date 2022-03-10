@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.asamblo.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/services/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/servicios/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/contacto/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/traceability/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/traceability/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/trazabilidad/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/blockchain/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/blockchain/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/blockchain/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/portfolio/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/portfolio/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/process/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/process/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/proceso/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/about-us/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.asamblo.com/about-us/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.asamblo.com/es/nosotros/"/>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/pdfs/study-case-nf1.pdf</loc>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/pdfs/study-case-mts.pdf</loc>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.asamblo.com/pdfs/study-case-saos.pdf</loc>
+    <lastmod>2020-08-25T20:29:25+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+</urlset>

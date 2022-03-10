@@ -1,0 +1,50 @@
+.customers-reviews {
+  background: transparent url('/img/bg-customers-reviews.png') no-repeat center
+    center;
+  background-size: cover;
+
+  padding: 3rem 6rem;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @media (min-width: $break-md) {
+    padding: 6rem 12rem;
+  }
+
+  &--text {
+    font-family: $font-secondary;
+    color: white;
+    margin: 0 5rem 5rem 0;
+  }
+
+  &--title {
+    position: relative;
+    font-size: 30px;
+    font-family: $font-main;
+    font-weight: 900;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 5px;
+      width: 12rem;
+      background-color: white;
+      margin-top: 3rem;
+    }
+  }
+
+  &--body {
+    margin-top: 8rem;
+    font-size: 19px;
+    font-family: $font-secondary;
+    max-width: 50ch;
+    line-height: 4rem;
+
+    strong {
+      font-weight: 900;
+    }
+  }
+}

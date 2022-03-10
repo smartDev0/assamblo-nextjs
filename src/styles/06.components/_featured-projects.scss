@@ -1,0 +1,24 @@
+.featured-projects {
+  text-align: center;
+
+  &__subtitle {
+    margin-bottom: 2em;
+    font-size: 3em;
+  }
+
+  &__list {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+
+    @media (min-width: $break-md) {
+      display: flex;
+      margin-bottom: 4em;
+    }
+
+    @media (min-width: $break-lg) {
+      display: flex;
+      margin-bottom: 8em;
+    }
+  }
+}

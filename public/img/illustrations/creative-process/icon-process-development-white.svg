@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="79px" viewBox="0 0 96 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-development</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-development">
+            <path d="M69.4915966,14.3979592 L1.5,14.3979592 L1.5,54.0714286 C1.5,57.6612794 4.41014913,60.5714286 8,60.5714286 L26.5084034,60.5714286 L26.5084034,71 C26.5084034,74.5898509 29.4185525,77.5 33.0084034,77.5 L88,77.5 C91.5898509,77.5 94.5,74.5898509 94.5,71 L94.5,33.7959184 C94.5,30.2060675 91.5898509,27.2959184 88,27.2959184 L69.4915966,27.2959184 L69.4915966,14.3979592 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="3"></path>
+            <path d="M68.9579832,50.8061224 L80.3277311,50.8061224" id="Line-2-Copy-12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M39.5294118,59.6530612 L58.0840336,59.6530612" id="Line-2-Copy-13" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M37.9159664,66.1020408 L54.8571429,66.1020408" id="Line-2-Copy-14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M55.6638655,71.744898 L78.2521008,71.744898" id="Line-2-Copy-15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M60.5042017,66.1020408 L73.4117647,66.1020408" id="Line-2-Copy-16" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M37.9159664,71.744898 L50.8235294,71.744898" id="Line-2-Copy-17" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M80.6722689,62.0714286 L82.2857143,62.0714286" id="Line-2-Copy-18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M83.8991597,56.4285714 L85.512605,56.4285714" id="Line-2-Copy-19" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <rect id="Rectangle-3-Copy-2" stroke="#FFFFFF" stroke-width="3" x="1.5" y="1.5" width="67.9915966" height="58.2653061" rx="8"></rect>
+            <ellipse id="Oval-2-Copy-3" fill="#FFFFFF" cx="8.87394958" cy="8.06122449" rx="2.42016807" ry="2.41836735"></ellipse>
+            <ellipse id="Oval-2-Copy-4" fill="#FFFFFF" cx="16.1344538" cy="8.06122449" rx="2.42016807" ry="2.41836735"></ellipse>
+            <ellipse id="Oval-2-Copy-5" fill="#FFFFFF" cx="22.5882353" cy="8.06122449" rx="2.42016807" ry="2.41836735"></ellipse>
+            <polyline id="Path-2" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" points="25.0084034 36.1088923 32.3770713 43.5306122 45.9831933 29.8265306"></polyline>
+        </g>
+    </g>
+</svg>

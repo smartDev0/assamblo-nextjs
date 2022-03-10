@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="119px"
+   height="98px"
+   viewBox="0 0 119 98"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="icon-process-development-alt.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icon-development</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="770"
+     inkscape:window-height="480"
+     id="namedview30"
+     showgrid="false"
+     inkscape:zoom="2.1092437"
+     inkscape:cx="59.5"
+     inkscape:cy="49"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg28" />
+  <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">icon-development</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#fa655c;stroke-width:3"
+     inkscape:connector-curvature="0"
+     id="Rectangle-3-Copy-4"
+     d="m 39,33.5 c -3.589851,0 -6.5,2.910149 -6.5,6.5 v 50 c 0,3.589851 2.910149,6.5 6.5,6.5 h 72 c 3.58985,0 6.5,-2.910149 6.5,-6.5 V 40 c 0,-3.589851 -2.91015,-6.5 -6.5,-6.5 z" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#005b96;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-10"
+     d="M 43,63 H 56" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#6948fa;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-11"
+     d="M 47,69 H 57" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#005b96;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-12"
+     d="M 67,69 H 86" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#005b96;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-13"
+     d="M 49,74 H 72" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#005b96;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-14"
+     d="M 47,82 H 68" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#005b96;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-15"
+     d="M 69,89 H 97" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#6948fa;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-16"
+     d="M 75,82 H 91" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#6948fa;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-17"
+     d="M 47,89 H 63" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#6948fa;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-18"
+     d="m 100,77 h 2" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#fa655c;stroke-width:2;stroke-linecap:round"
+     inkscape:connector-curvature="0"
+     id="Line-2-Copy-19"
+     d="m 104,70 h 2" />
+  <rect
+     style="fill:none;fill-rule:evenodd;stroke:#fa655c;stroke-width:3;stroke-opacity:1"
+     rx="8"
+     height="73"
+     width="85"
+     y="1.5"
+     x="1.5"
+     id="Rectangle-3-Copy-2" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#fa655c;stroke-width:3;stroke-opacity:1"
+     inkscape:connector-curvature="0"
+     id="Rectangle-3-Copy-3"
+     d="M 1.5,17.5 V 69 c 0,3.589851 2.9101491,6.5 6.5,6.5 h 72 c 3.589851,0 6.5,-2.910149 6.5,-6.5 V 17.5 Z" />
+  <circle
+     style="fill:#6948fa;fill-rule:evenodd;stroke:none;stroke-width:1"
+     r="3"
+     cy="10"
+     cx="11"
+     id="Oval-2-Copy-3" />
+  <circle
+     style="fill:#005b96;fill-rule:evenodd;stroke:none;stroke-width:1"
+     r="3"
+     cy="10"
+     cx="20"
+     id="Oval-2-Copy-4" />
+  <circle
+     style="fill:#fa655c;fill-rule:evenodd;stroke:none;stroke-width:1"
+     r="3"
+     cy="10"
+     cx="28"
+     id="Oval-2-Copy-5" />
+  <polyline
+     style="fill:none;fill-rule:evenodd;stroke:#fa655c;stroke-width:4;stroke-linecap:round"
+     points="31 44.7933094 40.134078 54 57 37"
+     id="Path-2" />
+</svg>

@@ -1,0 +1,52 @@
+.map-contact {
+  --info-height: 20em;
+  background: $brand-secondary;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  @media (min-width: $break-lg) {
+    background: #efefef;
+  }
+  @media (min-width: $break-lg) {
+    display: block;
+  }
+  &__contact {
+    position: relative;
+    padding: 2em;
+    z-index: 5;
+
+    @media (min-width: $break-lg) {
+      padding: 0;
+      max-width: 46em;
+      margin-left: 12vw;
+    }
+  }
+
+  &__info {
+    order: -1;
+    z-index: 10;
+    position: relative;
+    @media (min-width: $break-lg) {
+      height: var(--info-height);
+    }
+  }
+
+  &__map {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 126%;
+    order: -2;
+    @media (min-width: $break-md) {
+      padding-bottom: 50%;
+    }
+    @media (min-width: $break-lg) {
+      position: absolute;
+      height: calc(100% - var(--info-height));
+      padding-bottom: 0;
+    }
+  }
+}

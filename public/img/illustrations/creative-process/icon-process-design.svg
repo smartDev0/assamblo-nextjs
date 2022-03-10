@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="102px" viewBox="0 0 100 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-design</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Process" transform="translate(-974.000000, -1530.000000)">
+            <g id="Design" transform="translate(445.000000, 1471.000000)">
+                <g id="circle-finalizing" transform="translate(468.000000, 0.000000)">
+                    <g id="icon-design" transform="translate(61.000000, 61.000000)">
+                        <polyline id="Path-3" stroke="#005B96" stroke-width="3" stroke-linecap="round" points="34 -4.17853373e-14 41.9446955 35.2828726 34 58.1350376 51 87 51 63.9126522"/>
+                        <polyline id="Path-5" stroke="#005B96" stroke-width="3" stroke-linecap="round" points="42 36 59.9931268 36 67 0"/>
+                        <path d="M69,63 L59,37" id="Path-6" stroke="#005B96" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M11.6779661,94 L90.3220339,94" id="Line-3" stroke="#FA655C" stroke-width="3" stroke-linecap="round"/>
+                        <circle id="Oval-5" stroke="#FA655C" stroke-width="3" fill="#FFFFFF" cx="94" cy="94" r="4.5"/>
+                        <circle id="Oval-5-Copy-2" stroke="#FA655C" stroke-width="3" fill="#FFFFFF" cx="51" cy="59" r="4.5"/>
+                        <circle id="Oval-7" fill="#FA655C" cx="66.5" cy="67.5" r="2.5"/>
+                        <circle id="Oval-7-Copy" fill="#005B96" cx="60.5" cy="74.5" r="2.5"/>
+                        <circle id="Oval-7-Copy-2" fill="#6948FA" cx="56.5" cy="81.5" r="2.5"/>
+                        <circle id="Oval-5-Copy" stroke="#FA655C" stroke-width="3" fill="#FFFFFF" cx="6" cy="94" r="4.5"/>
+                        <path d="M50,93 C70.9868205,93 88,75.9868205 88,55 C87.5368471,59.9266557 86.9968085,63.4350272 86.3798842,65.5251144 C84.4028355,72.2231874 81.2456761,77.088089 79.1281901,79.6230315 C69.5665422,91.0697318 55.4736615,93 50,93 C47.9614536,93 39.9675433,92.4295371 32.3737375,88.3892787 C25.7199685,84.8491637 19.429758,78.1038135 16.9663566,74 C15.1695407,71.0066601 13.5140885,64.6733268 12,55 C12,75.9868205 29.0131795,93 50,93 Z" id="Oval-6" stroke="#FA655C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
